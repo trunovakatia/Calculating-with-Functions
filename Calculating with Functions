@@ -1,0 +1,48 @@
+int zero(double n)  {return 0*n;} //Эти функции принимают параметр типа double и возвращают результат умножения числа (0–9) на этот параметр n. Например: one(2.5) вернёт 1 * 2.5 = 2. three(4.0) вернёт 3 * 4.0 = 12.
+int one(double n)   {return 1*n;}
+int two(double n)   {return 2*n;}
+int three(double n) {return 3*n;}
+int four(double n)  {return 4*n;}
+int five(double n)  {return 5*n;}
+int six(double n)   {return 6*n;}
+int seven(double n) {return 7*n;}
+int eight(double n) {return 8*n;}
+int nine(double n)  {return 9*n;}
+
+int zero(float n)  {return 0/n;} //Эти функции принимают параметр типа float и возвращают результат деления числа (0–9) на этот параметр n. Например: two(0.5f) вернёт 2 / 0.5 = 4.  eight(2.0f) вернёт 8 / 2.0 = 4.
+int one(float n)   {return 1/n;}
+int two(float n)   {return 2/n;}
+int three(float n) {return 3/n;}
+int four(float n)  {return 4/n;}
+int five(float n)  {return 5/n;}
+int six(float n)   {return 6/n;}
+int seven(float n) {return 7/n;}
+int eight(float n) {return 8/n;}
+int nine(float n)  {return 9/n;}
+
+int zero(int n)  {return 0+n;} //Эти функции принимают параметр типа int и возвращают сумму числа (0–9) и этого параметра n. Например: one(5) вернёт 1 + 5 = 6.  six(3) вернёт 6 + 3 = 9.
+int one(int n)   {return 1+n;}
+int two(int n)   {return 2+n;}
+int three(int n) {return 3+n;}
+int four(int n)  {return 4+n;}
+int five(int n)  {return 5+n;}
+int six(int n)   {return 6+n;}
+int seven(int n) {return 7+n;}
+int eight(int n) {return 8+n;}
+int nine(int n)  {return 9+n;}
+
+int zero()  {return 0;} //Эти функции просто возвращают значение числа от 0 до 9 и не принимают никаких параметров.
+int one()   {return 1;}
+int two()   {return 2;}
+int three() {return 3;}
+int four()  {return 4;}
+int five()  {return 5;}
+int six()   {return 6;}
+int seven() {return 7;}
+int eight() {return 8;}
+int nine()  {return 9;}
+
+int plus(int n)         {return n;}
+int minus(int n)        {return -1*n;}
+double times(int n)     {return n;}
+float divided_by(int n) {return n;}
